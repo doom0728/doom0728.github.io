@@ -22,7 +22,7 @@ body{font-family: 'dotum',sans-serif;background: #f2f2f2}
 
 /* display */
 
-.wrap{position: relative;}
+.wrap{position: relative;z-index: 10;}
 .header{position: relative;z-index: 20;}
 .body{position: relative;z-index: 30;}
 .footer{position: relative;z-index: 10;}
@@ -31,7 +31,7 @@ body{font-family: 'dotum',sans-serif;background: #f2f2f2}
 /* custom */
 
 /* header */
-.header{position: relative;height: 55px;background-color: #00c73c;border-bottom: 1px solid #00a732;}
+.header{position: relative;height: 55px;background-color: #00c73c;border-bottom: 1px solid #00a732;min-width: 1025px;}
 .logo_wrap{position: absolute;left: 20px;top: 15px;}
 .logo_inner a{display: block;float: left}
 
