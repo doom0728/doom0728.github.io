@@ -16,3 +16,9 @@ $('.com_slider').bxSlider({
 	pause : 4000
 	
 });
+
+
+
+$('.icons').on('click',function(){
+    $(this).addClass('on').siblings().removeClass('on');
+});
