@@ -19,6 +19,7 @@ $('.com_slider').bxSlider({
 
 
 
-$('.icons').on('click',function(){
+$('.icons').on('click',function(e){
+    e.preventDefault();
     $(this).addClass('on').siblings().removeClass('on');
 });
